@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Anamaranhao/python/blob/main/pessoas%20cadastro\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 140
+        },
+        "id": "dfa3W-L44-5M",
+        "outputId": "f66a95b8-d311-4391-a1a2-8957527cebe4"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-4-4959503c117f>\"\u001b[0;36m, line \u001b[0;32m13\u001b[0m\n\u001b[0;31m    return f\"Olá, meu nome é {self.nome}, tenho {self.idade} anos, minha renda é {self. renda} e sou do gênero {self.gênero}:\u001b[0m\n\u001b[0m           ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unterminated string literal (detected at line 13)\n"
+          ]
+        }
+      ],
+      "source": [
+        "# DOCENTE: Prof. MSc. Cloves\n",
+        "# AULA X: Python Noções OO\n",
+        "# Estudante: Ana Paula Maranhão\n",
+        "\n",
+        "class Pessoas:\n",
+        "    def __init__(self, nome, idade, renda, genero):\n",
+        "        self.nome = nome\n",
+        "        self.idade = idade\n",
+        "        self.renda = renda\n",
+        "        self.genero = genero\n",
+        "\n",
+        "        def apresentar(self):\n",
+        "        return f\"Olá, meu nome é {self.nome}, tenho {self.idade} anos, minha renda é {self. renda} e sou do gênero {self.gênero}:\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ]
+    }
+  ]
+}
